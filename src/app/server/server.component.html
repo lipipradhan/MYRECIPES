@@ -1,0 +1,5 @@
+<p>server component</p>
+<input type="text" class="form-control" (input)="onupDateServerName($event)" />
+<button class="btn btn-primary" (click)="onCreate()"></button>
+<input type="text" [(ngModel)]="ServerName">
+<p>{{ServerName}}</p>
